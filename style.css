@@ -1,0 +1,113 @@
+.nav-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav-link1 {
+    display: inline-block;
+}
+
+.btn1{
+    background-color: rgb(255, 217, 0);
+    margin-left: 100px;
+}
+
+.card-container{
+    gap: 50px;
+}
+
+.hovers:hover {
+  transform: scale(1.1);
+  background-color: #000; 
+  color:white
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-container img {
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2); /* Adjust the scale value for the zoom effect */
+  }
+
+.zoom-button {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .zoom-button:hover {
+    transform: scale(1.1);
+}
+
+.viewmore{
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+.image-container2 {
+    position: relative;
+  }
+
+.text-overlay2 {
+    position: absolute;
+    transform: translate(0%, -155%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.booking-form {
+    width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 70px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: 'Merienda', cursive;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:55%;
+    position:relative;
+    margin-top: 160px;
+    margin-left: 30px;
+    border-radius: 10px;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height: 450px;
+    width:550px;
+    position:absolute;
+}
+  
